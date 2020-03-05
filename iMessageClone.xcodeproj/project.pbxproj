@@ -3,27 +3,35 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 51;
 	objects = {
 
 /* Begin PBXBuildFile section */
+		343AAAACBB6362BBDB51CBD6 /* Pods_iMessageClone.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 925511FBA7A3A5A9EA288164 /* Pods_iMessageClone.framework */; };
+		790D3314240EAE92003BCD3F /* MessagesViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 790D3313240EAE92003BCD3F /* MessagesViewController.swift */; };
+		7928866B23E1B40D00664167 /* ContactListCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7928866A23E1B40D00664167 /* ContactListCell.swift */; };
 		797FBD3C23E0842B0060D62B /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 797FBD3B23E0842B0060D62B /* AppDelegate.swift */; };
 		797FBD3E23E0842B0060D62B /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 797FBD3D23E0842B0060D62B /* SceneDelegate.swift */; };
-		797FBD4023E0842B0060D62B /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 797FBD3F23E0842B0060D62B /* ViewController.swift */; };
+		797FBD4023E0842B0060D62B /* ContactsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 797FBD3F23E0842B0060D62B /* ContactsViewController.swift */; };
 		797FBD4323E0842B0060D62B /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 797FBD4123E0842B0060D62B /* Main.storyboard */; };
 		797FBD4523E0842D0060D62B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 797FBD4423E0842D0060D62B /* Assets.xcassets */; };
 		797FBD4823E0842D0060D62B /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 797FBD4623E0842D0060D62B /* LaunchScreen.storyboard */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		07C8E3F79DA201E5305B605E /* Pods-iMessageClone.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-iMessageClone.release.xcconfig"; path = "Target Support Files/Pods-iMessageClone/Pods-iMessageClone.release.xcconfig"; sourceTree = "<group>"; };
+		790D3313240EAE92003BCD3F /* MessagesViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MessagesViewController.swift; sourceTree = "<group>"; };
+		7928866A23E1B40D00664167 /* ContactListCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContactListCell.swift; sourceTree = "<group>"; };
 		797FBD3823E0842B0060D62B /* iMessageClone.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = iMessageClone.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		797FBD3B23E0842B0060D62B /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		797FBD3D23E0842B0060D62B /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		797FBD3F23E0842B0060D62B /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		797FBD3F23E0842B0060D62B /* ContactsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContactsViewController.swift; sourceTree = "<group>"; };
 		797FBD4223E0842B0060D62B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		797FBD4423E0842D0060D62B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		797FBD4723E0842D0060D62B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		797FBD4923E0842D0060D62B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		925511FBA7A3A5A9EA288164 /* Pods_iMessageClone.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_iMessageClone.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		E41762A975737BD73C56472A /* Pods-iMessageClone.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-iMessageClone.debug.xcconfig"; path = "Target Support Files/Pods-iMessageClone/Pods-iMessageClone.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -31,6 +39,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				343AAAACBB6362BBDB51CBD6 /* Pods_iMessageClone.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -42,6 +51,8 @@
 			children = (
 				797FBD3A23E0842B0060D62B /* iMessageClone */,
 				797FBD3923E0842B0060D62B /* Products */,
+				AA0EF7B4A3322D43FD67A5E2 /* Pods */,
+				8561CFE5055AA1657C0ECEB4 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -58,13 +69,32 @@
 			children = (
 				797FBD3B23E0842B0060D62B /* AppDelegate.swift */,
 				797FBD3D23E0842B0060D62B /* SceneDelegate.swift */,
-				797FBD3F23E0842B0060D62B /* ViewController.swift */,
+				797FBD3F23E0842B0060D62B /* ContactsViewController.swift */,
+				790D3313240EAE92003BCD3F /* MessagesViewController.swift */,
+				7928866A23E1B40D00664167 /* ContactListCell.swift */,
 				797FBD4123E0842B0060D62B /* Main.storyboard */,
 				797FBD4423E0842D0060D62B /* Assets.xcassets */,
 				797FBD4623E0842D0060D62B /* LaunchScreen.storyboard */,
 				797FBD4923E0842D0060D62B /* Info.plist */,
 			);
 			path = iMessageClone;
+			sourceTree = "<group>";
+		};
+		8561CFE5055AA1657C0ECEB4 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				925511FBA7A3A5A9EA288164 /* Pods_iMessageClone.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		AA0EF7B4A3322D43FD67A5E2 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				E41762A975737BD73C56472A /* Pods-iMessageClone.debug.xcconfig */,
+				07C8E3F79DA201E5305B605E /* Pods-iMessageClone.release.xcconfig */,
+			);
+			path = Pods;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -74,9 +104,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 797FBD4C23E0842D0060D62B /* Build configuration list for PBXNativeTarget "iMessageClone" */;
 			buildPhases = (
+				DFD6361B8540B2FD8DD40AF3 /* [CP] Check Pods Manifest.lock */,
 				797FBD3423E0842B0060D62B /* Sources */,
 				797FBD3523E0842B0060D62B /* Frameworks */,
 				797FBD3623E0842B0060D62B /* Resources */,
+				B68A31F3CC4F1AFB42C3B245 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -133,12 +165,56 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		B68A31F3CC4F1AFB42C3B245 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-iMessageClone/Pods-iMessageClone-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-iMessageClone/Pods-iMessageClone-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-iMessageClone/Pods-iMessageClone-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		DFD6361B8540B2FD8DD40AF3 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-iMessageClone-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		797FBD3423E0842B0060D62B /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				797FBD4023E0842B0060D62B /* ViewController.swift in Sources */,
+				790D3314240EAE92003BCD3F /* MessagesViewController.swift in Sources */,
+				797FBD4023E0842B0060D62B /* ContactsViewController.swift in Sources */,
+				7928866B23E1B40D00664167 /* ContactListCell.swift in Sources */,
 				797FBD3C23E0842B0060D62B /* AppDelegate.swift in Sources */,
 				797FBD3E23E0842B0060D62B /* SceneDelegate.swift in Sources */,
 			);
@@ -282,9 +358,11 @@
 		};
 		797FBD4D23E0842D0060D62B /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = E41762A975737BD73C56472A /* Pods-iMessageClone.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = EHV7XZLAHA;
 				INFOPLIST_FILE = iMessageClone/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -299,9 +377,11 @@
 		};
 		797FBD4E23E0842D0060D62B /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 07C8E3F79DA201E5305B605E /* Pods-iMessageClone.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = EHV7XZLAHA;
 				INFOPLIST_FILE = iMessageClone/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
