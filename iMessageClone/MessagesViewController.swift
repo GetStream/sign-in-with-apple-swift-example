@@ -56,14 +56,14 @@ class MessagesViewController: ChatViewController {
     }
     
     private func setupNavigationBar() {
-        guard let presenter = channelPresenter else {
+        guard let channel = presenter?.channel else {
             return
         }
         
         navigationItem.rightBarButtonItem = nil
         
         let chatNavigationTitleView = ChatNavigationTitleView()
-        chatNavigationTitleView.update(title: presenter.channel.name, imageURL: presenter.channel.imageURL)
+        chatNavigationTitleView.update(title: channel.name ?? "", imageURL: channel.imageURL)
         navigationItem.titleView = chatNavigationTitleView
     }
 }

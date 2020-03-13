@@ -13,7 +13,7 @@ import StreamChatCore
 class ContactsViewController: ChannelsViewController {
     
     override func viewDidLoad() {
-        channelsPresenter = ChannelsPresenter(filter: .currentUserInMembers)
+        presenter = ChannelsPresenter(filter: .currentUserInMembers)
         
         title = "Messages"
         

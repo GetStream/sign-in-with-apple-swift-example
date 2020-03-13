@@ -5,7 +5,5 @@ target 'iMessageClone' do
   use_frameworks!
 
   # Pods for iMessageClone
-  pod 'StreamChat', :git => 'https://github.com/GetStream/stream-chat-swift', :branch => 'release/2.0'
-  pod 'StreamChatCore', :git => 'https://github.com/GetStream/stream-chat-swift', :branch => 'release/2.0'
-  pod 'StreamChatClient', :git => 'https://github.com/GetStream/stream-chat-swift', :branch => 'release/2.0'
+  pod 'StreamChat'
 end
