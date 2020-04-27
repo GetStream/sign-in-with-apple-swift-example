@@ -1,0 +1,19 @@
+{
+  "name": "backend",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "apple-auth": "^1.0.5",
+    "express": "^4.17.1",
+    "jsonwebtoken": "^8.5.1",
+    "node-persist": "^3.0.5",
+    "stream-chat": "^1.7.3"
+  }
+}

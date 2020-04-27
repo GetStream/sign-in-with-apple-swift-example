@@ -16,6 +16,8 @@
 		797FBD4323E0842B0060D62B /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 797FBD4123E0842B0060D62B /* Main.storyboard */; };
 		797FBD4523E0842D0060D62B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 797FBD4423E0842D0060D62B /* Assets.xcassets */; };
 		797FBD4823E0842D0060D62B /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 797FBD4623E0842D0060D62B /* LaunchScreen.storyboard */; };
+		801EEBB6244E490E00BE8438 /* Authentication.swift in Sources */ = {isa = PBXBuildFile; fileRef = 801EEBB5244E490E00BE8438 /* Authentication.swift */; };
+		80A310882449083B002DE073 /* AuthViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 80A310872449083B002DE073 /* AuthViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -30,6 +32,9 @@
 		797FBD4423E0842D0060D62B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		797FBD4723E0842D0060D62B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		797FBD4923E0842D0060D62B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		801EEBB4244E0FDC00BE8438 /* iMessageClone.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = iMessageClone.entitlements; sourceTree = "<group>"; };
+		801EEBB5244E490E00BE8438 /* Authentication.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Authentication.swift; sourceTree = "<group>"; };
+		80A310872449083B002DE073 /* AuthViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AuthViewController.swift; sourceTree = "<group>"; };
 		925511FBA7A3A5A9EA288164 /* Pods_iMessageClone.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_iMessageClone.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		E41762A975737BD73C56472A /* Pods-iMessageClone.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-iMessageClone.debug.xcconfig"; path = "Target Support Files/Pods-iMessageClone/Pods-iMessageClone.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -67,10 +72,13 @@
 		797FBD3A23E0842B0060D62B /* iMessageClone */ = {
 			isa = PBXGroup;
 			children = (
+				801EEBB4244E0FDC00BE8438 /* iMessageClone.entitlements */,
 				797FBD3B23E0842B0060D62B /* AppDelegate.swift */,
 				797FBD3D23E0842B0060D62B /* SceneDelegate.swift */,
 				797FBD3F23E0842B0060D62B /* ContactsViewController.swift */,
 				790D3313240EAE92003BCD3F /* MessagesViewController.swift */,
+				80A310872449083B002DE073 /* AuthViewController.swift */,
+				801EEBB5244E490E00BE8438 /* Authentication.swift */,
 				7928866A23E1B40D00664167 /* ContactListCell.swift */,
 				797FBD4123E0842B0060D62B /* Main.storyboard */,
 				797FBD4423E0842D0060D62B /* Assets.xcassets */,
@@ -212,10 +220,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				801EEBB6244E490E00BE8438 /* Authentication.swift in Sources */,
 				790D3314240EAE92003BCD3F /* MessagesViewController.swift in Sources */,
 				797FBD4023E0842B0060D62B /* ContactsViewController.swift in Sources */,
 				7928866B23E1B40D00664167 /* ContactListCell.swift in Sources */,
 				797FBD3C23E0842B0060D62B /* AppDelegate.swift in Sources */,
+				80A310882449083B002DE073 /* AuthViewController.swift in Sources */,
 				797FBD3E23E0842B0060D62B /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -361,14 +371,15 @@
 			baseConfigurationReference = E41762A975737BD73C56472A /* Pods-iMessageClone.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = iMessageClone/iMessageClone.entitlements;
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = EHV7XZLAHA;
+				DEVELOPMENT_TEAM = FWD9V5VYJ2;
 				INFOPLIST_FILE = iMessageClone/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = io.stream.iMessageClone;
+				PRODUCT_BUNDLE_IDENTIFIER = my.unique.bundle.id.iMessageClone24;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -380,14 +391,15 @@
 			baseConfigurationReference = 07C8E3F79DA201E5305B605E /* Pods-iMessageClone.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = iMessageClone/iMessageClone.entitlements;
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = EHV7XZLAHA;
+				DEVELOPMENT_TEAM = FWD9V5VYJ2;
 				INFOPLIST_FILE = iMessageClone/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = io.stream.iMessageClone;
+				PRODUCT_BUNDLE_IDENTIFIER = my.unique.bundle.id.iMessageClone24;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
