@@ -1,5 +1,7 @@
-# iMessage Clone using StreamChat iOS SDK
-iMessage Clone Tutorial Repo from [Build an iMessage Clone with The Stream Chat iOS SDK](https://getstream.io/blog/build-imessage-clone/)
+# Sign in with Apple Example App
+Sign in with Apple Tutorial Repo from [Adding Sign in with Apple to your iOS App](https://getstream.io/blog/sign-in-with-apple-swift/)
+
+![](meta/anim.gif)
 
 This tutorial teaches you how to build an iMessage clone on iOS using StreamChat iOS SDK
 
