@@ -10,7 +10,7 @@ This repository is built on top of this [iMessage Clone repository](https://gith
 
 ## Setup
 
-You should place your Stream and Apple credetials in [`backend/index.js`](backend/index.js#L7-L16). Make sure to also change the IP Address in [`iMessageClone/Authentication.swift`](iMessageClone/Authentication.swift) with the IP and port where the backend is running.
+You should place your [Stream Chat](https://getstream.io/chat) and [Apple Developer](https://developer.apple.com) credentials in [`backend/index.js`](backend/index.js#L7-L16). Make sure to also change the IP Address in [`iMessageClone/Authentication.swift`](iMessageClone/Authentication.swift) with the IP and port where the backend is running.
 
 ### Dependencies
 
