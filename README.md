@@ -2,7 +2,7 @@
 
 # [Sign in with Apple](https://developer.apple.com/sign-in-with-apple/) Example App ![](https://img.shields.io/twitter/url?url=https%3A%2F%2Fgithub.com%2FGetStream%2Fsign-in-with-apple-swift-example)
 
-The completed iOS and Node.js project from the [Adding Sign in with Apple to your iOS App](https://getstream.io/blog/sign-in-with-apple-swift/) tutorial. You should read it before trying to run this project.
+The completed iOS and Node.js project from the [Adding Sign in with Apple to your iOS App](https://getstream.io/blog/sign-in-with-apple-swift/) tutorial. You should read it before trying to run this project as it contains many instructions not present in this README.
 
 ## About this repository
 
@@ -10,7 +10,7 @@ This repository is built on top of this [iMessage Clone repository](https://gith
 
 ## Setup
 
-You should place your Stream and Apple credetials in [`backend/index.js`](backend/index.js#L7-L16). Make sure to also change the IP Address in 
+You should place your Stream and Apple credetials in [`backend/index.js`](backend/index.js#L7-L16). Make sure to also change the IP Address in [`iMessageClone/Authentication.swift`](iMessageClone/Authentication.swift) with the IP and port where the backend is running.
 
 ## Helpful Links
 
