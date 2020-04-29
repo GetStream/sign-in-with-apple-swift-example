@@ -2,6 +2,8 @@
 
 <img align="right" src="meta/anim.gif" width="40%" />
 
+# Tutorial
+
 This is the completed iOS and Node.js projects following the [Adding Sign in with Apple to your iOS App](https://getstream.io/blog/sign-in-with-apple-swift/) tutorial. You should read it before trying to run this project as it contains many instructions not present in this README.
 
 ## About this repository
