@@ -12,6 +12,24 @@ This repository is built on top of this [iMessage Clone repository](https://gith
 
 You should place your Stream and Apple credetials in [`backend/index.js`](backend/index.js#L7-L16). Make sure to also change the IP Address in [`iMessageClone/Authentication.swift`](iMessageClone/Authentication.swift) with the IP and port where the backend is running.
 
+### Dependencies
+
+For the iOS project, use CocoaPods in the root folder:
+
+```bash
+$ pod install --repo-update
+```
+For the backend, use Yarn or NPM in the `backend` folder:
+
+```bash
+$ yarn install
+```
+or
+
+```bash
+$ npm install
+```
+
 ## Helpful Links
 
 - [Build an iMessage Clone with The Stream Chat iOS SDK](https://getstream.io/blog/build-imessage-clone/)
