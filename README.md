@@ -1,7 +1,8 @@
 # [Sign in with Apple](https://developer.apple.com/sign-in-with-apple/) Example App ![](https://img.shields.io/twitter/url?url=https%3A%2F%2Fgithub.com%2FGetStream%2Fsign-in-with-apple-swift-example)
-The completed iOS and Node.js project from the [Adding Sign in with Apple to your iOS App](https://getstream.io/blog/sign-in-with-apple-swift/) tutorial.
 
-![](meta/anim.gif)
+<img align="right" src="meta/anim.gif" width="40%" />
+
+The completed iOS and Node.js project from the [Adding Sign in with Apple to your iOS App](https://getstream.io/blog/sign-in-with-apple-swift/) tutorial.
 
 ## About this repository
 
