@@ -31,6 +31,14 @@ or
 $ npm install
 ```
 
+### Running
+
+#### Backend
+To run the backend, you need Node.js 10+, and execute the command `node index.js` in the `backend` folder.
+
+#### iOS
+To run the iOS project, you need Xcode 11+ and a real iOS 13 device signed in with an Apple ID and Two-Factor Authentication enabled. Sign in with Apple does not work on simulators!
+
 ## Helpful Links
 
 - [Build an iMessage Clone with The Stream Chat iOS SDK](https://getstream.io/blog/build-imessage-clone/)
