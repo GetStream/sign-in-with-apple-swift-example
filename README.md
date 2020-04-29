@@ -2,15 +2,15 @@
 
 <img align="right" src="meta/anim.gif" width="40%" />
 
-# Tutorial
+## 📚 Tutorial
 
 This is the completed iOS and Node.js projects following the [Adding Sign in with Apple to your iOS App](https://getstream.io/blog/sign-in-with-apple-swift/) tutorial. You should read it before trying to run this project as it contains many instructions not present in this README.
 
-## About this repository
+## ℹ️ About this repository
 
 This repository is built on top of this [iMessage Clone repository](https://github.com/getstream/stream-imessage-clone). By cloning that repository and following the tutorial, you will arrive at a similar state to this one.
 
-## Setup
+## ⚙️ Setup
 
 You should place your [Stream Chat](https://getstream.io/chat) and [Apple Developer](https://developer.apple.com) credentials in [`backend/index.js`](backend/index.js#L7-L16). Make sure to also change the IP Address in [`iMessageClone/Authentication.swift`](iMessageClone/Authentication.swift) with the IP and port where the backend is running.
 
@@ -41,7 +41,7 @@ To run the backend, you need Node.js 10+, and execute the command `node index.js
 #### iOS
 To run the iOS project, you need Xcode 11+ and a real iOS 13 device signed in with an Apple ID and Two-Factor Authentication enabled. Sign in with Apple does not work on simulators!
 
-## Helpful Links
+## 🔗 Helpful Links
 
 - [Build an iMessage Clone with The Stream Chat iOS SDK](https://getstream.io/blog/build-imessage-clone/)
 - [Stream Chat iOS Tutorial](https://getstream.io/tutorials/ios-chat/)
