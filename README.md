@@ -1,4 +1,4 @@
-# Sign in with Apple Example App
+# [Sign in with Apple](https://developer.apple.com/sign-in-with-apple/) Example App
 Sign in with Apple Tutorial Repo from [Adding Sign in with Apple to your iOS App](https://getstream.io/blog/sign-in-with-apple-swift/)
 
 ![](meta/anim.gif)
