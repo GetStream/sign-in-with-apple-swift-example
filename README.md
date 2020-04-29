@@ -14,12 +14,13 @@ You should place your Stream and Apple credetials in [`backend/index.js`](backen
 
 ### Dependencies
 
-For the iOS project, use CocoaPods in the root folder:
+Dependencies are included, but if you need to make any changes, use CocoaPods in the root folder:
 
 ```bash
 $ pod install --repo-update
 ```
-For the backend, use Yarn or NPM in the `backend` folder:
+
+And for the backend, use Yarn or NPM in the `backend` folder:
 
 ```bash
 $ yarn install
