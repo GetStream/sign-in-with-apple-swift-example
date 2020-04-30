@@ -51,3 +51,12 @@ To run the iOS project, you need Xcode 11+ and a real iOS 13 device signed in wi
 - [Stream Chat iOS Tutorial](https://getstream.io/tutorials/ios-chat/)
 - [Stream Chat iOS Repo](https://github.com/GetStream/stream-chat-swift)
 - [Stream Chat iOS Docs](http://getstream.io/chat/docs?language=swift)
+
+## 🔎 Troubleshooting
+
+### AKAuthenticationError 7026
+You forgot to add the Sign in with Apple capability.
+
+### ASAuthorizationAppleIDProvider.getCredentialState fails with .notFound.
+Sign in with Apple won't work on a simulator. You must use a real device.
+
