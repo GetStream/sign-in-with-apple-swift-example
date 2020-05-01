@@ -4,7 +4,7 @@
 
 ## 📚 Tutorial
 
-This repository contains the completed iOS and Node.js projects following the [Adding Sign in with Apple to your iOS App](https://getstream.io/blog/sign-in-with-apple-swift/) tutorial. You should read it before trying to run this project as it contains it may contain useful information not present in this README.
+This repository contains the completed iOS and Node.js projects following the [Adding Sign in with Apple to your iOS App](https://getstream.io/blog/adding-sign-in-with-apple-to-your-ios-app/) tutorial. You should read it before trying to run this project as it contains it may contain useful information not present in this README.
 
 ## ℹ️ About this repository
 
