@@ -12,7 +12,7 @@
   "dependencies": {
     "apple-auth": "^1.0.5",
     "express": "^4.17.1",
-    "jsonwebtoken": "^8.5.1",
+    "jsonwebtoken": "^9.0.0",
     "node-persist": "^3.0.5",
     "stream-chat": "^1.7.3"
   }
