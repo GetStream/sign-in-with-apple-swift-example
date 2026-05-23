@@ -14,6 +14,6 @@
     "express": "^4.17.1",
     "jsonwebtoken": "^8.5.1",
     "node-persist": "^3.0.5",
-    "stream-chat": "^1.7.3"
+    "stream-chat": "^9.44.2"
   }
 }
